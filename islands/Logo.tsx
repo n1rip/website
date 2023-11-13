@@ -4,28 +4,14 @@ import { useState, useEffect } from "https://esm.sh/preact@10.18.1/hooks";
 
 const arr: string[] = [
   `n.....`,
-  `ni....`,
-  `nic...`,
-  `nice..`,
-  `o.....`,
-  `on....`,
-  `one...`,
-  `one!..`,
-  `n.....`,
   `n1....`,
   `n1.r..`,
   `n1.ri.`,
   `n1.rip`,
-  `n1.rip`,
-  `n1.rip`,
-  `n1.rip`,
-  `n1.rip`,
-  `n1.rip`,
-  `n1.rip`,
-  `n1.rip`,
-  `n1.rip`,
-  `n1.rip`,
-  `n1.rip`,
+  `.1.rip`,
+  `...rip`,
+  `....ip`,
+  `.....p`,
 ];
 
 // const arr: string[] = [
@@ -34,7 +20,7 @@ const arr: string[] = [
 // ];
 
 export function Logo() {
-  const [text, setText] = useState("loading");
+  const [text, setText] = useState("......");
   let i = 0;
 
   function rotateText() {

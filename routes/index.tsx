@@ -25,7 +25,7 @@ export default function Home() {
         <div>
           n1 (nice one) is an open-source linux kernel-level game hacking
           software made for educational purposes. every function has a comment
-          describing their use.
+          describing their use for an easy understanding of the code.
         </div>
         <div>
           the solution is made of a loadable kernel module handling the process
