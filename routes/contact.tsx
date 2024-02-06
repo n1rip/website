@@ -26,7 +26,7 @@ export default function Home() {
         <Entry title="email" object="contact@n1.rip"/>
         </div>
         <div className={"flex flex-col gap-3"}>
-        <Entry title="discord" object={<a className={"hover:text-black hover:bg-white"} href='https://discord.gg/PTYAeRdtHR'>https://discord.gg/PTYAeRdtHR</a>}/>
+        <Entry title="discord" object={<a className={"hover:text-black hover:bg-white underline"} href='https://discord.gg/PTYAeRdtHR'>https://discord.gg/PTYAeRdtHR</a>}/>
         </div>
       </div>
     </div>

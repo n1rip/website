@@ -1,6 +1,6 @@
 import { JSX } from "preact";
 import { IS_BROWSER } from "$fresh/runtime.ts";
-import { useState, useEffect } from "https://esm.sh/preact@10.18.1/hooks";
+import { useState, useEffect } from "https://esm.sh/preact@10.19.2/hooks";
 
 const arr: string[] = [
   `n.....`,
@@ -38,12 +38,11 @@ export function Logo() {
   }, [])
 
   return (
-    <a
+    <div
       id={"logo"}
-      class="text-white font-bold hover:text-black hover:bg-white"
-      href={"/"}
+      class="text-white font-bold"
     >
       {text}
-    </a>
+    </div>
   );
 }

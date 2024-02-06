@@ -23,18 +23,12 @@ export default function Home() {
       <Header />
       <div class="max-w-screen-md mx-auto flex flex-col items-left justify-center gap-3">
         <div>
-          n1 (nice one) is an open-source linux kernel-level game hacking
-          software made for educational purposes. every function has a comment
-          describing their use for an easy understanding of the code.
+          n1 <i>(nice one)</i> is an open-source game hacking research project made
+          for educational purposes. lead by ataractic <i>(ataractic@pm.me)</i> as a
+          hobby. the source code is <a className={"hover:text-black hover:bg-white underline"} href='https://github.com/n1rip'>available on github</a>.
         </div>
         <div>
-          the solution is made of a loadable kernel module handling the process
-          memory writing/reading and input generation, as well as a user-space
-          controller program tasked with the logic. the controller communicates
-          with the module using ioctls.
-        </div>
-        <div>
-          join our discord <a className={"hover:text-black hover:bg-white"} href='https://discord.gg/PTYAeRdtHR'>https://discord.gg/PTYAeRdtHR</a>
+          join our community <a className={"hover:text-black hover:bg-white underline"} href='https://discord.gg/PTYAeRdtHR'>https://discord.gg/PTYAeRdtHR</a>
         </div>
       </div>
     </div>
